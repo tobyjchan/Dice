@@ -6,7 +6,7 @@ void setup()
 void draw()
 {
   int sum = 0;
-  background(255);
+  background(197,128,234);
   for (int y = 0; y < 450; y += 50)
   {
     for (int x = 0; x < 500; x+= 50)
@@ -41,7 +41,7 @@ class Die
   {
     fill(163,12,245);
     stroke(188,94,240);
-    rect(myX, myY, 50, 50);
+    rect(myX, myY, 50, 50, 20);
 
     if (spots == 1) {
       noStroke();
